@@ -52,7 +52,7 @@ else
 KERNEL_ARCH := $(TARGET_KERNEL_ARCH)
 endif
 
-CLANG_PREBUILTS := $(BUILD_TOP)/prebuilts/clang/host/$(HOST_PREBUILT_TAG)/clang-r353983c1
+CLANG_PREBUILTS := $(BUILD_TOP)/prebuilts/clang/host/$(HOST_PREBUILT_TAG)/clang-13.0
 GCC_PREBUILTS := $(BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86
 ifeq ($(TARGET_KERNEL_NEW_GCC_COMPILE),true)
     ifeq ($(TARGET_KERNEL_CLANG_COMPILE),true)
